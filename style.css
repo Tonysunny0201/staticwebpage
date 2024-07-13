@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: "Playwrite FR Trad", cursive; */
+    font-family: "Playwrite DE Grund", cursive;
+
+
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/* <!-- nav --> */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    /* background-image: url(./Images/sky1.jpg); */
+    /* background-size: cover; */
+    /* opacity: 0.5; */
+    height: 70px;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+.logo{
+    width: 250px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+    font-weight: 300;
+}
+.links{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.links:hover {
+    /* text-decoration: underline; */
+    color: rgb(13, 160, 245);
+}
+
+/*     <!-- home -->   */
+
+#parthome{
+    margin-top: -70px;
+    text-align: center;
+    color: white;
+    background-image: url('./Images/sky2.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    padding: 150px 20px;
+    
+}
+
+.hero h1{
+    font-size: 48px;
+    margin: 80px 0;
+
+}
+
+.hero p {
+    font-size: 18px;
+    /* margin: 40px 0 30px; */
+    color: white;
+    font-weight: 600;
+    margin-top: -50px;
+}
+.video-placeholder {
+    width: 80px;
+    height: 80px;
+    /* background: rgba(0, 0, 0, 0.5); */
+    border: solid 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* margin: 20px 0px; */
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.play-button {
+    font-size: 38px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+#partabout{
+    padding: 70px;
+}
+
+.photos{
+    display: grid;
+    /* align-items: center; */
+    /* margin-left: 220px; */
+    justify-content: center;
+    grid-template-columns: 350px 350px;
+    column-gap: 300px;
+}
+.img-w{
+    width: 500px;
+    /* align-items: center; */
+    /* height: 250px; */
+    /* border-radius: 10px; */
+    margin-left: -50px;
+
+
+}
+.img-v{
+    margin-top: -160px;
+    margin-left: -70px;
+}
+.div1{
+    text-align: center;
+    margin-top: -15px;
+}
+.div_heading{
+    font-size: 10px;
+    font-weight: 500;
+}
+/* .div_para{
+    text-align: justify;
+} */
+.div2{
+    margin-left: -50px;
+}
+
+/* <!-- Discover  --> */
+
+#discover{
+    padding: 70px;
+}
+.dis-part1{
+    text-align: center;
+    padding: 20px;
+}
+.dis-part2{
+    display: flex;
+    justify-content: center;
+        /* align-items: center; */
+    text-align: center;
+}
+.dis-img{
+    width: 350px;
+    /* border-radius: 10px ; */
+}
+
+/* <!-- Gallery --> */
+#gallery{
+    
+    padding: 70px;
+}
+.gal-heading{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.galleryphotos{
+    display: grid;
+        /* align-items: center; */
+    margin-left: 170px;
+    grid-template-columns: 350px 350px 350px;
+    gap: 15px;
+}
+.img-g{
+    width: 350px;
+    /* align-items: center; */
+    /* height: 250px; */
+    /* border-radius: 10px; */
+
+}
+.img5{
+    margin-top: -292px;
+}
+.img1{
+    margin-top: -60px;
+}
+.img2{
+    margin-top: -20px;
+}
+.img3{
+    margin-top: -60px;
+}
+.img4{
+    margin-top: -110px;
+}
+.img51{
+    margin-top: -60px;
+}
+.img6{
+    margin-top: -130px;
+    height: 365px;
+}
+.img7{
+    margin-top: -356px;
+    height: 590px;
+}
+.img8{
+    margin-top: -10px;
+}
+
+/* <!-- contacts  --> */
+.footer {
+    background: url('./Images/img-footer.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+.logo2 {
+    text-align: center;
+
+}
+
+.logo2 img {
+    display: block;
+    margin: 20px auto 10px;
+    width: 200px;
+}
+
+.info {
+    text-align: justify;
+    max-width: 300px;
+
+}
